@@ -2,6 +2,8 @@
 A simplified version of a WGAN (Wasserstein Generative Adversarial Network) image generation network built using PyTorch
 
 
+Certainly! Here's a README.md file for the provided code:
+
 ```markdown
 # Wasserstein Generative Adversarial Network (WGAN) in PyTorch
 
@@ -64,9 +66,7 @@ Generated images will be saved in the `result/` directory. Model checkpoints wil
 
 This code is based on the WGAN paper by Martin Arjovsky et al. (https://arxiv.org/abs/1701.07875). It was adapted and implemented in PyTorch by [Your Name].
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
 You can save this text as `README.md` in your code repository, and it will provide users with information on how to use and understand your code. Make sure to replace `[Your Name]` with your actual name or the name of the contributor who implemented the code.
