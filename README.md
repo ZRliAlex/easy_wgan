@@ -1,9 +1,6 @@
 # easy_wgan
 A simplified version of a WGAN (Wasserstein Generative Adversarial Network) image generation network built using PyTorch
 
-
-Certainly! Here's a README.md file for the provided code:
-
 ```markdown
 # Wasserstein Generative Adversarial Network (WGAN) in PyTorch
 
@@ -30,8 +27,8 @@ pip install torch torchvision numpy argparse
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/wgan-pytorch.git
-cd wgan-pytorch
+git clone https://github.com/ZRliAlex/easy_wgan.git
+cd easy_wgan
 ```
 
 2. Prepare your dataset:
@@ -58,15 +55,22 @@ python wgan.py
 - `--save_model_interval`: Interval for saving model checkpoints (default: 200)
 - `--clip_value`: Gradient clip (default: 1)
 
+### Model Functions
+
+All model functions are saved in `model.py`. You can find the architecture details and configurations for the generator and discriminator there.
+
+### Dataset Cleaning
+
+To clean your datasets, you can use `img_ded.py`. This script is designed to assist in dataset cleaning and preprocessing.
+
 ### Results
 
 Generated images will be saved in the `result/` directory. Model checkpoints will be saved in the `pth/` directory.
 
 ## Acknowledgments
 
-This code is based on the WGAN paper by Martin Arjovsky et al. (https://arxiv.org/abs/1701.07875). It was adapted and implemented in PyTorch by [Your Name].
+This code is based on the WGAN paper by Martin Arjovsky et al. (https://arxiv.org/abs/1701.07875). 
 
 
-```
 
-You can save this text as `README.md` in your code repository, and it will provide users with information on how to use and understand your code. Make sure to replace `[Your Name]` with your actual name or the name of the contributor who implemented the code.
+Make sure to replace `[Your Name]` with the actual name or contributor's name as needed.
