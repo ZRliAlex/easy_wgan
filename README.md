@@ -70,7 +70,3 @@ Generated images will be saved in the `result/` directory. Model checkpoints wil
 ## Acknowledgments
 
 This code is based on the WGAN paper by Martin Arjovsky et al. (https://arxiv.org/abs/1701.07875). 
-
-
-
-Make sure to replace `[Your Name]` with the actual name or contributor's name as needed.
